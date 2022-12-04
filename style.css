@@ -1,0 +1,111 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    height:200vh;
+    background-image: white;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    margin:0 auto;
+    height:120px;
+    margin-top: 120px;
+    width: 350px;
+    background-image: linear-gradient(to bottom right, rgb(241, 107, 130), rgb(32, 100, 32));
+    border-style: dashed;
+}
+
+.bow-value{
+    height: 120px;
+    padding: 5px;
+    border-right-style: solid;
+    border-right-width: 1px;
+}
+
+.bow-value-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.boba{
+    border-radius: 10px;
+}
+
+.boba-pic{
+    width:50px;
+    height: 50px;
+    border-radius: 50px;
+    justify-content: left;
+}
+
+.taiwanese-dessert{
+    margin-top: 45px;
+}
+
+.taiwanese-dessert-pic{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    justify-content: right;
+    margin-top: 10px;
+}
+
+.money-pic{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.content{
+    width: 200px;
+    padding: 10px;
+}
+
+.company-name-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gift-card{
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white;
+}
+
+.meet-fresh{
+    border-radius: 10px;
+    padding: 2px;
+    margin-left: 20px;
+}
+
+.meet-fresh-pic{
+    width:50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.sweetea{
+    border-radius: 10px;
+    padding: 2px;
+    margin-right: 20px;
+}
+
+.sweetea-pic{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.descriptor{
+    font-size:x-small;
+    text-align:center;
+    color:white;
+}
